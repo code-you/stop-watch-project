@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable = yes">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine" type="text/css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- title -->
+        <div id="header">
+            Stop Watch
+        </div>
+        <!-- Lap time -->
+        <div id="lap"><span id="lap_minute">00</span>:<span id="lap_second">00</span>:<span
+                id="lap_centisecond">00</span></div>
+        <!-- time -->
+        <div id="time">
+            <span id="time_minute">00</span>:<span id="time_second">00</span>:<span id="time_centisecond">00</span>
+        </div>
+        <!-- control Buttons -->
+        <div id="controlsContainer" class="row">
+            <div class="col-xs-2 col-xs-offset-4">
+                <div id="startButton" class="control">
+                    Start
+                </div>
+                <div id="stopButton" class="control">
+                    Stop
+                </div>
+                <div id="resumeButton" class="control">
+                    Resume
+                </div>
+            </div>
+            <div class="col-xs-2">
+                <div id="lapButton" class="control">Lap</div>
+                <div id="resetButton" class="control">Reset</div>
+            </div>
+        </div>
+        <!-- laps -->
+        <div id="laps">
+
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

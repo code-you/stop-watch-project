@@ -1,0 +1,74 @@
+body{
+    background: url("/Images/forest-1.jpg") center center fixed;
+    background-size: cover;
+    color: aquamarine;
+}
+
+/* title */
+#header{
+    text-align: center;
+    font-size: 7vw;
+}
+
+/* lap */
+
+#lap{
+    text-align: right;
+    font-size: 4vw;
+    color: red;
+}
+
+/* time */
+#time{
+    text-align: center;
+    font-size: 10vw;
+    color: springgreen;
+}
+
+/* Contro Buttons */
+
+#controlsContainer{
+    margin-bottom: 100px;
+
+}
+
+.control{
+    color: white;
+    background: #1E9600;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    text-align: center;
+    padding: 20% 0;
+    font-size: 2.5vw;
+    cursor: pointer;
+}
+.control:active{
+    background-color: #fff;
+    color: red;
+}
+
+/* laps */
+
+#laps{
+    max-height: 270px;
+    overflow-y: scroll;
+}
+
+.lap{
+    height: 50px;
+    border-bottom: 1px solid burlywood;
+    margin: 15px;
+}
+
+.lapTimeTitle{
+    font-size: 1.5em;
+    float: left;
+}
+
+.lapTime{
+    font-size:  2em;
+    float: right;
+}
