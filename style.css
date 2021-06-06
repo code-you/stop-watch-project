@@ -1,5 +1,5 @@
 body{
-    background: url("/Images/forest-1.jpg") center center fixed;
+    background: url("./Images/forest-1.jpg") center center fixed;
     background-size: cover;
     color: aquamarine;
 }
